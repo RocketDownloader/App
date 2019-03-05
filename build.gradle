@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter();
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.novoda:bintray-release:0.2.7'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter();
+    }
+}
